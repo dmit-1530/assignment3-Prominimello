@@ -183,8 +183,23 @@ footer {
     }
 }
 
-@media (min-width: 980px) {
-    
+@media (min-width: 980px){
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main section {
+        flex: 1;
+    }
+    aside {
+        width: 100%;
+    }
+    .btn-center {
+        justify-content: flex-start;
+    }
+    footer p {
+        max-width: 60ch;
+    }
 }
 
 /* ***************** footer ***************** */
