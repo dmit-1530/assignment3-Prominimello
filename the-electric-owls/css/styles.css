@@ -202,6 +202,22 @@ footer {
     }
 }
 
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1720px;
+        margin: 0 auto;
+    }
+    main {
+        display: flex;
+    }
+    main section, main aside {
+        flex: 1;
+    }
+    footer .contrainer {
+        text-align: center;
+    } 
+}
+
 /* ***************** footer ***************** */
 
 /* ***************** footer ***************** */
